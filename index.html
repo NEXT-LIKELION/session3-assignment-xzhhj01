@@ -8,9 +8,9 @@
     <title>Youtube</title>
 </head>
 <body>
-    <header>
-      <div class="logo-section">
-        <button class="menu-btn">&#9776;</button>
+  <header>
+    <div class="logo-section">
+      <button class="menu-btn">&#9776;</button>
         <img 
           src="
           https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" 
@@ -18,15 +18,23 @@
           class="logo"
         />
       </div>
-  
+      
       <div class="search-section">
         <input type="text" placeholder="검색" />
         <button class="search-btn">검색</button>
       </div>
-  
+      
       <div class="icons-section">
-        <button>알림</button>
-        <button>프로필</button>
+        <button class="create-btn"> + 만들기</button>
+        <button class="notification-btn">
+          <span class="material-symbols-outlined">notifications</span>
+        </button>
+        <div class="profile">
+          <img 
+            src="./image/tvnD.png"
+            alt="Profile"
+          />
+        </div>
       </div>
     </header>
   
@@ -44,11 +52,30 @@
     </aside>
   
     <main>
+      <div class="categories-container">
+        <button class="category-btn active">전체</button>
+        <button class="category-btn">음악</button>
+        <button class="category-btn">뉴스</button>
+        <button class="category-btn">게임</button>
+        <button class="category-btn">라이브</button>
+        <button class="category-btn">믹스</button>
+        <button class="category-btn">힙합</button>
+        <button class="category-btn">스케치 코미디</button>
+        <button class="category-btn">관광</button>
+        <button class="category-btn">축구</button>
+        <button class="category-btn">반려동물</button>
+        <button class="category-btn">스포츠</button>
+        <!-- 필요한 카테고리를 더 추가해보세요 -->
+      </div>
       <div class="videos-container">
         <div class="video-card">
-          <div class="thumbnail"></div>
+          <div class="thumbnail">
+            <img src="./image/img1.png" alt="이미지1">
+          </div>
           <div class="video-info">
-            <div class="channel-icon"></div>
+            <div class="channel-icon">
+              <img src="./image/tvnD.png" alt="tvnD">
+            </div>
             <div class="video-meta">
               <h3>비디오 제목</h3>
               <p>채널명 • 조회수 1,234회 • 3시간 전</p>
@@ -56,9 +83,13 @@
           </div>
         </div>
         <div class="video-card">
-          <div class="thumbnail"></div>
+          <div class="thumbnail">
+            <img src="./image/img2.png" alt="이미지2">
+          </div>
           <div class="video-info">
-            <div class="channel-icon"></div>
+            <div class="channel-icon">
+              <img src="./image/tvnD.png" alt="tvnD">
+            </div>
             <div class="video-meta">
               <h3>비디오 제목2</h3>
               <p>채널명2 • 조회수 5,678회 • 1일 전</p>
@@ -66,9 +97,13 @@
           </div>
         </div>
         <div class="video-card">
-            <div class="thumbnail"></div>
+            <div class="thumbnail">
+              <img src="./image/img3.png" alt="이미지3">
+            </div>
             <div class="video-info">
-              <div class="channel-icon"></div>
+              <div class="channel-icon">
+                <img src="./image/tvnD.png" alt="tvnD">
+              </div>
               <div class="video-meta">
                 <h3>비디오 제목3</h3>
                 <p>채널명2 • 조회수 5,678회 • 1일 전</p>
@@ -76,9 +111,13 @@
             </div>
           </div>
         <div class="video-card">
-          <div class="thumbnail"></div>
+          <div class="thumbnail">
+            <img src="./image/img4.png" alt="이미지4">
+          </div>
           <div class="video-info">
-            <div class="channel-icon"></div>
+            <div class="channel-icon">
+              <img src="./image/tvnD.png" alt="tvnD">
+            </div>
             <div class="video-meta">
               <h3>비디오 제목4</h3>
               <p>채널명2 • 조회수 5,678회 • 1일 전</p>
